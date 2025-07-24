@@ -1,0 +1,35 @@
+{
+  "device": "cpu",
+
+  "MAX_MEMORY": 200000,
+  "BATCH_SIZE": 128,
+  "LR": 0.0003,
+  "GAMMA": 0.99,
+  "TAU": 0.005,
+  "UPDATE_EVERY": 4,
+  "TARGET_UPDATE": 1000,
+
+  "window_size": 10,
+  "hidden_size": 128,
+  "num_layers": 2,
+  "attention_heads": 4,
+  "dropout_rate": 0.2,
+  "recurrent_dropout": 0.2,
+
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.01,
+  "epsilon_decay": 0.995,
+
+  "data_path": "./data/24hr_is.csv",
+
+  "episodes": 1000,
+  "eval_after": 50,
+
+  "smoothing": [
+    200,
+    100,
+    50,
+    25,
+    9
+  ]
+}

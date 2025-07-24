@@ -1,0 +1,8 @@
+{
+  "datapath": "./data/24hr_IS.csv",
+  "modelpath": "./models/Model500.pth",
+
+  "window_size": 120,
+
+  "AI_tradelog_path": "./data/model_tradelog"
+}
