@@ -9,8 +9,8 @@
   "UPDATE_EVERY": 4,
   "TARGET_UPDATE": 1000,
 
-  "window_size": 10,
-  "hidden_size": 128,
+  "window_size": 120,
+  "hidden_size": 64,
   "num_layers": 2,
   "attention_heads": 4,
   "dropout_rate": 0.2,
